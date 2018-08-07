@@ -1,0 +1,19 @@
+<plugin name='ipgeolocationPlugin' version='0.1' grailsVersion='3.3.6 &gt; *'>
+  <type>ipgeolocation.plugin.IpgeolocationPluginGrailsPlugin</type>
+  <grailsVersion>3.3.6 &gt; *</grailsVersion>
+  <authorEmail></authorEmail>
+  <pluginExcludes>[grails-app/views/error.gsp]</pluginExcludes>
+  <author>Your name</author>
+  <documentation>http://grails.org/plugin/ipgeolocation-plugin</documentation>
+  <profiles>[web]</profiles>
+  <name>ipgeolocation-plugin</name>
+  <description>Brief summary/description of the plugin.
+</description>
+  <title>Ipgeolocation Plugin</title>
+  <version />
+  <resources>
+    <resource>ipgeolocation.plugin.UrlMappings</resource>
+    <resource>ipgeolocation.plugin.Application</resource>
+    <resource>ipgeolocation.plugin.BootStrap</resource>
+  </resources>
+</plugin>
